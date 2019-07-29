@@ -87,4 +87,4 @@ client.on('guildBanAdd' , (guild, user) => {
   if (!aramızakatılanlar) return;
   aramızakatılanlar.send('https://media.giphy.com/media/8njotXALXXNrW/giphy.gif **Adalet dağıtma zamanı gelmiş!** '+ user.username +'**Bakıyorum da suç işlemiş,Yargı dağıtmaya devam** :fist: :writing_hand:  :spy:' );
 });
-client.login('NjA0NzE4MDcyNTY1MzM0MDI2.XT1VnQ.4nLz3j3LuMUIp5cqh1n0mKh9vI4');
+client.login(process.env.BOT_TOKEN);
